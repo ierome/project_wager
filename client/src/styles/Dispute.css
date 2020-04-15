@@ -1,0 +1,8 @@
+.dispute-container{
+    width:100%;
+    max-width:330px;
+    padding:15px;
+    margin: auto;
+    height: 100vh;
+    border:1px solid #ece6e6;
+}

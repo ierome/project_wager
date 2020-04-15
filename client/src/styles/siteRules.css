@@ -1,0 +1,55 @@
+.rules-site-container {
+  padding: 10px;
+  height: 100vh;
+  background: black;
+}
+
+.rules-site-hero {
+  display: relative;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(#08000c80, #02192981, rgb(17, 16, 16)),
+    url(../assets/images/gamekey2.png);
+  background-size: cover;
+}
+li {
+  text-align: left;
+  padding: 4px 0 0 40px;
+  display: block;
+  word-spacing: 0.1rem;
+}
+.general-site-title {
+  opacity: 0.8;
+  font-size: 95px;
+  padding: 50px;
+}
+.rules-nav-links {
+  padding: 0;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+}
+.rules-site-container p {
+  text-align: left;
+  padding: 20px 40px 0;
+  word-spacing: 0.1rem;
+  line-height: 2.3rem;
+  height:100%;
+
+  color: rgb(252, 248, 248);
+}
+
+@media only screen and (max-width: 990px) {
+  .general-site-title {
+    opacity: 0.8;
+    font-size: 30px;
+    padding: 30px;
+  }
+  .site-hero {
+    height: auto;
+  }
+  
+  .rules-site-container{
+    height: auto;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "db": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "shake"
+  },
+  "secret": "!@#$IEROME!@#$",
+  "salt": "!@#$GARAGE!@#$"
+}

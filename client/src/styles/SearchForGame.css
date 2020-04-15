@@ -1,0 +1,21 @@
+h3{
+    color:black;
+}
+div{
+    color:black;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 760px)
+   {
+   {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color:red;
+        margin: auto;
+    }
+}

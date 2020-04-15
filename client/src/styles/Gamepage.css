@@ -1,0 +1,141 @@
+#noGames h1 {
+  font-size:30px ;
+ padding-top: 10px;
+  margin: auto;
+  text-align: center;
+  color:#140744f3;
+}
+
+
+.banner-container {
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.lobby-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  position: relative;
+}
+
+.opponents-container {
+  position: relative;
+  max-width: 400px;
+
+  opacity: 0.9;
+  border-radius: 15px;
+  margin: auto;
+  box-shadow: 5px 20px 10px rgba(38, 38, 39, 0.4);
+  background: linear-gradient(104.74deg, #4573f0 20%, #203374 80%);
+}
+.table-opponents {
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: rgb(10, 10, 10, 0.3);
+}
+
+.modal-button-container {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  background:#140744f3;
+  color: #edf5ef;
+  font-size: 25px;
+  padding: 5px 10px;
+
+  border-radius: 20px;
+  border:none;
+  margin: 100px auto;
+}
+
+.bgimagecod {
+  width: 100%;
+  height: 540px;
+  background: url("../assets/images/codbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bgimagefortnite {
+  width: 100%;
+  height: 540px;
+  background: url("../assets/images/fortnitebg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bgimagemadden {
+  width: 100%;
+  height: 540px;
+  background: linear-gradient(
+    147deg,
+    #000000fd 16%,
+    #2f023ab2 34%,
+    #01070ffa  69%,
+    #000000fb 91%
+  ), url("../assets/images/maddenbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bgimagenba {
+  width: 100%;
+  height: 540px;
+  background: linear-gradient(104.74deg, #533504c0 20%, #c32b0578 80%), url("../assets/images/nba2kbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top-five-container {
+  max-width: 400px;
+
+  color: #05d0eb;
+  border-radius: 15px;
+
+  background: rgba(0, 81, 255, 0.247);
+  margin: 5px;
+
+  background: linear-gradient(104.74deg, #203374 20%, #4573f0 80%);
+}
+
+.table-top-five {
+  color: #05d0eb;
+  border-radius: 5px;
+  background-color: rgb(10, 10, 10, 0.3);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1050px) and (-webkit-min-device-pixel-ratio: 2) {
+  .opponents-container,
+  .top-five-container {
+    display: none;
+  }
+  .bgimagenba,
+  .bgimagefortnite,
+  .bgimagecod,
+  .bgimagemadden {
+    height: 240px;
+  }
+  .modal-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin:auto;
+    
+  }
+  .banner-container{
+    margin-top: 10px;
+  }
+  #noGames h1 {
+    font-size: 18px;
+    padding:5px;
+    margin: auto;
+    text-align: center;
+    color:#2e2d2d;
+  }
+}

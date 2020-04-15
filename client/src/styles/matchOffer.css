@@ -1,0 +1,191 @@
+.offerGrid-container {
+  width: 80%;
+  height: 100px;
+  font-size: 15px;
+  margin: 20px auto;
+  border: 2px solid silver;
+  display: grid;
+background: #d8d8e0;
+height: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". . . ." ". . . ." ". . . .";
+}
+
+.avatarImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #5552583a;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.playerTwoAvatarImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #5552583a;
+
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.avatarName {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  align-items: center;
+  color: #131212;
+  background: #8f88963a;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.playerTwoAvatarName {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  align-items: center;
+  color: #131212;
+  background: #8f88963a;
+font-size: 20px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gameRecord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #131212;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.playerTwoGameRecord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #131212;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.matchSettings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+  background: #8f88963a;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.wagerAmount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background: #8f88963a;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color:#3a3535;
+}
+
+.inProgressWagerAmount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background: #8f88963a;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  color:#3a3535;
+}
+
+.inProgressTimer {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+  background: #8f88963a;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color:#3a3535;
+}
+
+.acceptMatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8f88963a;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.accept-button {
+  font-size: 15px;
+  padding: 0 20px;
+  background: #07d322;
+  border-radius: 20px;
+  margin: 10px;
+}
+.accept-button:hover {
+  box-shadow: 1px 5px 20px yellow;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px)  {
+  .offerGrid-container {
+   
+    width: 98%;
+    color: greenyellow;
+    font-size: 15px;
+  }
+  .avatarName {
+    display: none;
+  }
+
+  .accept-button {
+    font-size: 15px;
+  }
+  .wagerAmount {
+    font-size: 20px;
+  }
+  .gameRecord{
+    display:none;
+  }
+  .playerTwoGameRecord{
+    display:none;
+  }
+  .playerTwoAvatarName{
+    display:none;
+  }
+}

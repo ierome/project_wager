@@ -1,0 +1,14 @@
+.rules-container {
+  display: flex;
+  color: whitesmoke;
+  background: black;
+  padding: 20px;
+}
+
+.rules-container p {
+  padding: 20px;
+}
+
+.rules-container li {
+  display: block;
+}

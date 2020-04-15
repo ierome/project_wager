@@ -1,0 +1,99 @@
+.funding-contianer {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    147deg,
+    #020f29 16%,
+    #210635 34%,
+    #020e1a 69%,
+    #030113 91%
+  );
+}
+.deposit-amount {
+  width: 300px;
+}
+.payment-accordion {
+  width: 70%;
+}
+.btc-section {
+  padding-top: 10px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  width: 300px;
+}
+.btc-section p {
+  color: black;
+}
+.btc-continue {
+  background: rgb(99, 179, 19);
+  border-radius: 15px;
+  margin: 10px;
+  color: white;
+}
+.btc-amount {
+  margin-top: 10px;
+}
+
+.creditCard-section {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  margin: auto;
+
+  width: 300px;
+}
+
+.paypal-section {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  margin: auto;
+
+  width: 300px;
+}
+.paypal-btn {
+  margin: 10px;
+  background: url(https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png)
+    center no-repeat;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+}
+.m-0 {
+  width: 200px;
+  margin: auto;
+}
+.fullName {
+  margin: 10px;
+}
+
+.add,
+.submit {
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  background: rgb(99, 179, 19);
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 468px) {
+  .payment-accordion{
+    width: 98%;
+  }
+  
+}

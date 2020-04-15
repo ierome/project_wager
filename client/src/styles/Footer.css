@@ -1,0 +1,112 @@
+.main-footer {
+  padding: 20px;
+
+  background: #140744f3;
+
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: auto;
+}
+.title {
+  padding: 20px;
+  color: #fff;
+}
+p {
+  padding-left: 10px;
+  color: #ddd9d9;
+}
+
+.headerSection li {
+  display: flex;
+
+  line-height: 2.3rem;
+}
+
+.handshake-icon {
+  color: antiqueWhite;
+  width: 40px;
+  height: 40px;
+}
+
+.gamepad-icon {
+  color: antiqueWhite;
+  width: 40px;
+  height: 40px;
+}
+.collect-icon {
+  color: antiqueWhite;
+  width: 40px;
+  height: 40px;
+}
+
+.readSection li {
+  display: flex;
+
+  line-height: 2.3rem;
+}
+.rules-icon {
+  color: antiqueWhite;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.faq-icon {
+  color: antiquewhite;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.funding li {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 2.3rem;
+}
+.paypal-icon {
+  color: #06f5f5;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.bitcoin-icon {
+  color: #fa7d08;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.footer-copyright, .footer-copyright a{
+  
+  background:#140744f3 ;
+}
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 20px;
+  }
+  li,
+  a,
+  p {
+    font-size: 15px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 760px) 
+   {
+    .headerSection{
+      display:none;
+    }
+  }

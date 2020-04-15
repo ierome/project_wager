@@ -1,0 +1,37 @@
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width:330px;
+    padding:15px;
+    margin: auto;
+    height: 100vh;
+    
+}
+.header1{
+    color:#141414;
+}
+.headerSpan{
+    color:#802580;
+}
+.loginBox a{
+    color:#757373;
+    font-size: 15px;
+    padding:10px;
+}
+
+.loginBox Label{
+    color:#141414;
+}
+
+.loginBoxLinks span{
+    color:#757373;
+    font-weight: bolder;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+}

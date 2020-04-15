@@ -1,0 +1,39 @@
+.profileContainer {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    147deg,
+    #020f29 16%,
+    #210635 34%,
+    #020e1a 69%,
+    #030113 91%
+  );
+
+}
+.profileName {
+  text-align: center;
+  color: yellowgreen;
+}
+.profile-Accordian {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  height: 80%;
+  padding:30px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+   {
+  .profile-Accordian {
+    width: 98%;
+    
+    
+    
+}
+}

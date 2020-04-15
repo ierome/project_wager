@@ -1,0 +1,69 @@
+.profileUdate {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    147deg,
+    #020f29 16%,
+    #210635 34%,
+    #020e1a 69%,
+    #030113 91%
+  );
+}
+.profileUpdate-input{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.formInput {
+ margin:auto;
+  
+ text-align: center;
+  width: 310px;
+}
+.profileUpdate-accordian {
+  width: 70%;
+}
+
+.imageEdit {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto 20px auto 20px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+   {
+.formInput{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:auto;
+  
+}
+.imageEdit {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  
+}
+.profileUpdate-accordian {
+  width: 98%;
+  padding:0px;
+}
+}

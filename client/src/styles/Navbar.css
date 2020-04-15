@@ -1,0 +1,42 @@
+.userProfileName {
+  color: #0bbfcf;
+  margin-left: 20px;
+}
+
+.nav-join-btn {
+  margin: 3px;
+  max-width: 100px;
+  border-radius: 20px;
+}
+
+
+.color-nav {
+  position: sticky;
+  padding: 20px;
+  background:#140744;
+  
+  width:100%;
+  opacity: 0.9;
+}
+
+.dropdown-toggle.nav-link {
+  color: white !important;
+}
+
+.log-in-btn {
+  border-radius: 20px;
+}
+
+.log-out-btn {
+  border:none;
+  background:#4dcff0 ;
+  padding: 0px 10px;
+  border-radius: 20px;
+  max-width: 100px;
+  margin: 5px;
+}
+.log-out-btn:hover{
+ 
+  /* background:linear-gradient(#1f0538, rgb(163, 31, 196),#1f0538) ;
+  box-shadow: 1px 5px 3px #00ffff; */
+}
