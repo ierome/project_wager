@@ -22,7 +22,7 @@
     "concurrently": "^5.0.2",
     "cors": "^2.8.5",
     "darkmode-js": "^1.5.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mdbreact": "^4.25.0",
     "query-string": "^6.9.0",
     "react-animations": "^1.0.0",
